@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    consul:
+      host: 192.168.1.221
+      port: 8500
+      config:
+        #enabled setting this value to "false" disables Consul Config
+        enabled: true
+        #prefix sets the base folder for configuration values，default:config
+        prefix: config
+        #defaultContext sets the folder name used by all applications, default:application
+        defaultContext: global
+        #profileSeparator sets the value of the separator used to separate the profile name in property sources with profiles,default:,
+        profileSeparator: '::'
+        watch:
+          enabled: true
+          delay: 1000
