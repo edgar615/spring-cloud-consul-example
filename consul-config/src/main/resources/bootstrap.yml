@@ -12,6 +12,8 @@ spring:
         defaultContext: global
         #profileSeparator sets the value of the separator used to separate the profile name in property sources with profiles,default:,
         profileSeparator: '::'
+        #cause the configuration module to log a warning rather than throw an exception
+#        failFast: false
         watch:
           enabled: true
           delay: 1000

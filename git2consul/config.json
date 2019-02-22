@@ -1,10 +1,8 @@
 {
   "version": "1.0",
   "repos" : [{
-    "name" : "config",
+    "name" : "sample",
     "url" : "https://github.com/edgar615/spring-cloud-consul-config-data.git",
-	"include_branch_name" : false,
-    "branches" : ["master"],
     "hooks": [{
       "type" : "polling",
       "interval" : "1"

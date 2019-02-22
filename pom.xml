@@ -9,6 +9,7 @@
     <module>school</module>
     <module>discovery</module>
     <module>consul-config</module>
+    <module>git2consul</module>
   </modules>
 
   <parent>

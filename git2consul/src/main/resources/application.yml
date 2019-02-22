@@ -1,0 +1,15 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: consul-git
+
+management:
+  info:
+    defaults:
+      enabled: true
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+
